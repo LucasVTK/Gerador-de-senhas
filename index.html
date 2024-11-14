@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de Senha</h1>
+
+        <label for="numChave">Número de caracteres:</label>
+            <input type="number" id="numChave" min="8" placeholder="Mínimo de 8">
+
+            <button id="btn-gerar" onclick="senhaAleatoria()">Gerar Senha</button>
+
+        <label for="senha">Senha gerada:</label>
+            <input type="text" id="senha">
+
+            <!-- <button id="btn-copiar" onclick="Copiar()">Copiar Senha</button> -->
+            
+            <p id="mensagem">
+
+            </p>
+    </div>
+    <footer>
+        <p>
+            &copy; Gerador de Senha - Feito por Lucas Veteka - todos os direitos reservados
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
